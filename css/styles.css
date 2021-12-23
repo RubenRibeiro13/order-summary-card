@@ -13,7 +13,7 @@ body {
   margin: 0;
 
   background-color: hsl(225, 100%, 94%);
-  background-image: url("./images/pattern-background-mobile.png");
+  background-image: url("../images/pattern-background-mobile.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
 
@@ -23,7 +23,7 @@ body {
 
 @media screen and (min-width: 900px) {
   body {
-    background-image: url("./images/pattern-background-desktop.png");
+    background-image: url("../images/pattern-background-desktop.png");
   }
 }
 
