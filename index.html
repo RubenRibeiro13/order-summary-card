@@ -8,173 +8,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 
   <title>Frontend Mentor | Order summary card</title>
-
-  <style>
-
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-
-      margin-bottom: 22%;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-
-    body {
-      margin: 0;
-
-      background-color: hsl(225, 100%, 94%);
-      background-image: url("images/pattern-background-mobile.png");
-      background-repeat: no-repeat;
-      background-size: 100% auto;
-
-      text-align: center;
-      font-family: 'Red Hat Display', sans-serif;
-    }
-
-    h1 {
-      color: hsl(223, 47%, 23%);
-      font-weight: 900;
-
-      margin-top: 0;
-    }
-
-    p {
-      color: hsl(224, 23%, 55%);
-      font-weight: 500;
-    }
-
-    .main-div {
-      width: 87%;
-      max-width: 450px;
-      margin: 0 auto;
-    }
-
-    .illustration-hero-img {
-      width: 100%;
-      margin-top: 22%;
-
-      border-radius: 20px 20px 0 0;
-
-      display: block;
-    }
-
-    .white-bg {
-      background-color: white;
-
-      width: 100%;
-      padding: 11% 0;
-
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 40px 15px #d3d3d3;
-    }
-
-    .intro-paragraph {
-      width: 85%;
-      max-width: 350px;
-      margin: auto;
-
-      line-height: 1.5;
-    }
-
-    .container {
-      background-color: hsl(225, 100%, 98%);
-
-      box-sizing: border-box;
-      padding: 5%;
-      width: 85%;
-      max-width: 350px;
-      margin: 30px auto;
-
-      border-radius: 10px;
-
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .item-2 {
-      height: 48px;
-      width: 50%;
-      position: relative;
-    }
-
-    .span-1 {
-      color: hsl(223, 47%, 23%);
-      font-weight: 900;
-
-      position: absolute;
-      left: 0;
-    }
-
-    .span-2 {
-      color: hsl(224, 23%, 55%);
-      font-weight: 500;
-
-      position: absolute;
-      bottom: 0;
-      left: 0;
-    }
-
-    .item-3 {
-      color: hsl(245, 75%, 52%);
-      font-weight: 700;
-    }
-
-    .item-3:hover {
-      color: hsl(245, 83%, 68%);
-      text-decoration: none;
-    }
-
-    .btn {
-      border-radius: 10px;
-      box-shadow: 0px 30px 15px #d3d3d3;
-      font-family: 'Red Hat Display', sans-serif;
-      font-weight: 700;
-      color: #ffffff;
-      font-size: 16px;
-      background: #3829e0;
-      text-decoration: none;
-
-      display: block;
-
-      width: 85%;
-      max-width: 350px;
-      margin: 0 auto 30px;
-      padding: 15px 0;
-    }
-
-    .btn:hover {
-      background: #756af1;
-      text-decoration: none;
-    }
-
-    .option-2 {
-      color: hsl(224, 23%, 55%);
-      font-weight: 700;
-      text-decoration: none;
-    }
-
-    .option-2:hover {
-      color: hsl(223, 47%, 23%);
-    }
-
-
-
-    @media screen and (min-width: 900px) {
-
-      body {
-        background-image: url("images/pattern-background-desktop.png");
-      }
-
-    }
-
-  </style>
 
 </head>
 
@@ -182,7 +18,7 @@
 
   <header>
     <div class="main-div">
-      <img class="illustration-hero-img" src="images/illustration-hero.png" alt="illustration-hero-img">
+      <img class="illustration-hero-img" src="images/illustration-hero.png" alt="illustration-hero-image" aria-hidden="true">
     </div>
   </header>
 
@@ -194,11 +30,11 @@
         <p class="intro-paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 
         <div class="container">
-          <img class="item-1" src="images/icon-music.png" alt="icon-music-img">
+          <img class="item-1" src="images/icon-music.png" alt="icon-music-image" aria-hidden="true">
 
           <div class="item-2">
-            <span class="span-1">Annual Plan</span>
-            <span class="span-2">$59.99/year</span>
+            <p class="text-1">Annual Plan</p>
+            <p class="text-2">$59.99/year</p>
           </div>
 
           <a class="item-3" href="#">Change</a>
