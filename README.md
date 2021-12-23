@@ -85,7 +85,7 @@ While working through this project, I learned the basics of HTML sectioning elem
   padding: 11% 0;
 
   border-radius: 0 0 20px 20px;
-  box-shadow: 0 40px 15px #d3d3d3;
+  box-shadow: 0 40px 15px rgb(220, 220, 250);
 }
 
 body {
@@ -100,14 +100,10 @@ body {
   font-family: 'Red Hat Display', sans-serif;
 }
 
-
-
 @media screen and (min-width: 900px) {
-
   body {
     background-image: url("images/pattern-background-desktop.png");
   }
-
 }
 
 ```
